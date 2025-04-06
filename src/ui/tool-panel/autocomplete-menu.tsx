@@ -8,7 +8,7 @@ import {
   Tooltip,
 } from '@heroui/react';
 import { ChevronsUpDown } from 'lucide-react';
-import { BlockMath, InlineMath } from 'react-katex';
+import { MathJax } from 'better-react-mathjax';
 
 import { SymbolsGroup } from '@/types/symbols';
 import { cn } from '@/utils/cn';
@@ -135,9 +135,11 @@ export function AutocompleteMenu({
                     }}
                   >
                     {isBlkMath && symbol.isBlkMath ? (
-                      <BlockMath math={symbol.lbl} />
+                      <MathJax>
+                        {symbol.lbl}
+                      </MathJax>
                     ) : (
-                      <InlineMath math={symbol.lbl} />
+                      <MathJax inline>{symbol.lbl}</MathJax>
                     )}
                     {hideValue ? '' : ` - ${symbol.val}`}
                   </AutocompleteItem>

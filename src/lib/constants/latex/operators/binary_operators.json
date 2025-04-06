@@ -19,7 +19,7 @@
     },
     {
       "name": "P Mod",
-      "lbl": "\\scriptsize\\text{(\\!mod\\!)}",
+      "lbl": "$scriptsize$text{($!mod$!)}",
       "val": " \\pmod{}",
       "caretPos": 7
     },
@@ -40,7 +40,7 @@
     },
     {
       "name": "Pod",
-      "lbl": "\\scriptsize x \\pod{a}",
+      "lbl": "$scriptsize x $pod{a}",
       "val": " \\pod{}",
       "caretPos": 6
     },
@@ -186,7 +186,7 @@
     },
     {
       "name": "B Mod",
-      "lbl": "\\scriptsize\\text{bmod}",
+      "lbl": "$scriptsize$text{bmod}",
       "val": " \\bmod "
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "name": "X Mod A",
-      "lbl": "\\scriptsize\\text{mod}",
+      "lbl": "$scriptsize$text{mod}",
       "val": " \\mod{}",
       "caretPos": 6
     },

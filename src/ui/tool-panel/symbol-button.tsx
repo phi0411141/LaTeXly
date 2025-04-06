@@ -7,7 +7,7 @@
  */
 
 import { Button, Tooltip } from '@heroui/react';
-import { BlockMath, InlineMath } from 'react-katex';
+import { MathJax } from 'better-react-mathjax';
 
 import { cn } from '@/utils/cn';
 import { insertToEditor } from '@/utils/insert-to-editor';
@@ -52,7 +52,7 @@ export function SymbolButton({
         variant="light"
         aria-label={name}
       >
-        {isBlkMath ? <BlockMath math={lbl} /> : <InlineMath math={lbl} />}
+        {isBlkMath ? <MathJax>{lbl}</MathJax> : <MathJax inline>{lbl}</MathJax>}
       </Button>
     </Tooltip>
   );

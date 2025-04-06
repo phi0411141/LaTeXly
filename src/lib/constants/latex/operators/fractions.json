@@ -46,8 +46,8 @@
     },
     {
       "name": "Continued Fraction",
-      "lbl": "\\cfrac{a}{1 + \\cfrac{1}{b}}",
-      "val": "\\cfrac{}{ \\cfrac{}{}}",
+      "lbl": "$cfrac{a}{1 + $cfrac{1}{b}}",
+      "val": "$cfrac{}{ $cfrac{}{}}",
       "caretPos": 7
     }
   ]

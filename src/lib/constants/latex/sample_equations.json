@@ -5,23 +5,23 @@
   },
   {
     "name": "Binomial Theorem",
-    "latex": "(x+y)^n = \\sum_{k=0}^{n} \\binom{n}{k} x^{n-k} y^k"
+    "latex": "(x+y)^n = $sum_{k=0}^{n} $binom{n}{k} x^{n-k} y^k"
   },
   {
     "name": "Fourier Transform",
-    "latex": "F(\\omega) = \\int_{-\\infty}^{\\infty} f(t) e^{-i \\omega t} dt"
+    "latex": "F($omega) = $int_{-$infty}^{$infty} f(t) e^{-i \\omega t} dt"
   },
   {
     "name": "Gauss's Law",
-    "latex": "\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}"
+    "latex": "$nabla $cdot $mathbf{E} = $frac{$rho}{$varepsilon_0}"
   },
   {
     "name": "Time Dilation",
-    "latex": "t' = \\frac{t}{\\sqrt{1 - v^2/c^2}}"
+    "latex": "t' = $frac{t}{$sqrt{1 - v^2/c^2}}"
   },
   {
     "name": "Gaussian Integral",
-    "latex": "\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}"
+    "latex": "$int_{-$infty}^{$infty} e^{-x^2} dx = $sqrt{\\pi}"
   },
   {
     "name": "Mass-Energy Equivalence",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Heisenberg Uncertainty Principle",
-    "latex": "\\delta x \\cdot \\delta p \\geq \\frac{\\hbar}{2}"
+    "latex": "$delta x $cdot $delta p $geq $frac{$hbar}{2}"
   },
   {
     "name": "Logistic Map",
@@ -41,15 +41,15 @@
   },
   {
     "name": "Laplace Transform",
-    "latex": "F(s) = \\int_{0}^{\\infty} f(t) e^{-st} dt"
+    "latex": "F(s) = $int_{0}^{$infty} f(t) e^{-st} dt"
   },
   {
     "name": "Riemann Zeta Function",
-    "latex": "\\zeta(s) = \\sum_{n=1}^{\\infty} \\frac{1}{n^s}"
+    "latex": "$zeta(s) = $sum_{n=1}^{$infty} $frac{1}{n^s}"
   },
   {
     "name": "Quadratic Formula",
-    "latex": "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}"
+    "latex": "x = $frac{-b $pm \\sqrt{b^2-4ac}}{2a}"
   },
   {
     "name": "Planck's Quantization Condition",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Bragg's Law",
-    "latex": "n \\lambda = 2d \\sin(\\theta)"
+    "latex": "n $lambda = 2d $sin(\\theta)"
   },
   {
     "name": "Ohm's Law",
@@ -65,27 +65,27 @@
   },
   {
     "name": "Maxwell's Equations (Integral Form)",
-    "latex": "\\oiint_{\\partial V} \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{1}{\\varepsilon_0} \\iiint_{V} \\rho dV"
+    "latex": "$oiint_{$partial V} $mathbf{E} $cdot d$mathbf{A} = $frac{1}{$varepsilon_0} $iiint_{V} \\rho dV"
   },
   {
     "name": "Einstein Field Equations",
-    "latex": "G_{\\mu\\nu} = 8\\pi T_{\\mu\\nu}"
+    "latex": "G_{$mu$nu} = 8$pi T_{$mu\\nu}"
   },
   {
     "name": "Euler's Formula",
-    "latex": "e^{ix} = \\cos(x) + i\\sin(x)"
+    "latex": "e^{ix} = $cos(x) + i$sin(x)"
   },
   {
     "name": "Ampère's Law (Integral Form)",
-    "latex": "\\oint_C \\mathbf{B} \\cdot d\\mathbf{r} = \\mu_0 I_{\\text{enc}}"
+    "latex": "$oint_C $mathbf{B} $cdot d$mathbf{r} = $mu_0 I_{$text{enc}}"
   },
   {
     "name": "Dirac Delta Function",
-    "latex": "\\delta(x) = \\begin{cases} +\\infty, & \\text{if } x = 0 \\\\ 0, & \\text{otherwise} \\end{cases}"
+    "latex": "$delta(x) = $begin{cases} +$infty, & $text{if } x = 0 $$ 0, & $text{otherwise} $end{cases}"
   },
   {
     "name": "Continuity Equation",
-    "latex": "\\frac{\\partial \\rho}{\\partial t} + \\nabla \\cdot (\\rho \\mathbf{v}) = 0"
+    "latex": "$frac{$partial $rho}{$partial t} + $nabla $cdot ($rho $mathbf{v}) = 0"
   },
   {
     "name": "Hubble's Law",
@@ -93,7 +93,7 @@
   },
   {
     "name": "Lorentz Transformation (Time)",
-    "latex": "t' = \\gamma \\left( t - \\frac{vx}{c^2} \\right)"
+    "latex": "t' = $gamma $left( t - $frac{vx}{c^2} $right)"
   },
   {
     "name": "Hermite Polynomial",
@@ -101,22 +101,22 @@
   },
   {
     "name": "One-Dimensional Wave Equation",
-    "latex": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+    "latex": "$frac{$partial^2 u}{$partial t^2} = c^2 $frac{$partial^2 u}{$partial x^2}"
   },
   {
     "name": "Gauss-Markov Theorem",
-    "latex": "\\hat{\\beta} = (X^T X)^{-1} X^T y"
+    "latex": "$hat{$beta} = (X^T X)^{-1} X^T y"
   },
   {
     "name": "Cauchy-Schwarz Inequality",
-    "latex": "\\left( \\sum_{i=1}^n a_i b_i \\right)^2 \\leq \\left( \\sum_{i=1}^n a_i^2 \\right) \\left( \\sum_{i=1}^n b_i^2 \\right)"
+    "latex": "$left( $sum_{i=1}^n a_i b_i $right)^2 $leq $left( $sum_{i=1}^n a_i^2 $right) $left( $sum_{i=1}^n b_i^2 $right)"
   },
   {
     "name": "Stokes' Theorem",
-    "latex": "\\oint_C \\mathbf{F} \\cdot d\\mathbf{r} = \\iint_S (\\nabla \\times \\mathbf{F}) \\cdot d\\mathbf{S}"
+    "latex": "$oint_C $mathbf{F} $cdot d$mathbf{r} = $iint_S ($nabla $times $mathbf{F}) $cdot d$mathbf{S}"
   },
   {
     "name": "Cauchy's Integral Formula",
-    "latex": "f(a) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(z)}{z-a} dz"
+    "latex": "f(a) = $frac{1}{2$pi i} $oint_C $frac{f(z)}{z-a} dz"
   }
 ]

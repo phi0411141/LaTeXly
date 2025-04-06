@@ -13,22 +13,12 @@ import { Banner } from '@/ui/banner';
 import { EditorPanel } from '@/ui/editor-panel';
 import { Footer } from '@/ui/footer';
 import { LaTeXPanel, latexPanelRef } from '@/ui/latex-panel';
-import { ToolPanel } from '@/ui/tool-panel';
-
-import 'katex/dist/katex.min.css';
-import 'katex/dist/contrib/mhchem';
-import 'katex/dist/contrib/render-a11y-string';
 
 export default function Home() {
   const latexPanelRef = useRef<latexPanelRef>(null);
 
   const [isDownloading, setIsDownloading] = useState(false);
   const [isCopying, setIsCopying] = useState(false);
-
-  // Conditionally import the copy-tex module on the client side
-  useEffect(() => {
-    require('katex/contrib/copy-tex');
-  }, []);
 
   async function handleCopy() {
     setIsCopying(true);
@@ -52,9 +42,9 @@ export default function Home() {
     <>
       <Banner />
       <div className="flex h-screen flex-col *:h-full *:max-h-[calc(50%-1rem)]">
-        <div className="flex flex-row border-b-1.5 *:w-1/2 dark:border-b-default-50">
+        <div className="flex flex-row border-b-1.5 w-full">
           <EditorPanel latexPanelRef={latexPanelRef} />
-          <ToolPanel />
+          {/*<ToolPanel />*/}
         </div>
         <LaTeXPanel ref={latexPanelRef} />
         <div className="absolute bottom-4 right-4 flex !h-fit gap-2">

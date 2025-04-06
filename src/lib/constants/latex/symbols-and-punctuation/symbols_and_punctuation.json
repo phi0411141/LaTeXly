@@ -14,7 +14,7 @@
     },
     {
       "name": "KaTeX",
-      "lbl": "\\tiny\\KaTeX",
+      "lbl": "$tiny$KaTeX",
       "val": "\\KaTeX "
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "name": "LaTeX",
-      "lbl": "\\tiny\\LaTeX",
+      "lbl": "$tiny$LaTeX",
       "val": "\\LaTeX "
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "TeX",
-      "lbl": "\\scriptsize\\TeX",
+      "lbl": "$scriptsize$TeX",
       "val": "\\TeX "
     },
     {
@@ -79,8 +79,8 @@
     },
     {
       "name": "TextUnderscore",
-      "lbl": "\\text{\\textunderscore}",
-      "val": "\\text{\\textunderscore} "
+      "lbl": "$text{$textunderscore}",
+      "val": "$text{$textunderscore} "
     },
     {
       "name": "DotsB",
@@ -109,8 +109,8 @@
     },
     {
       "name": "TextEndash",
-      "lbl": "\\text{\\textendash}",
-      "val": "\\text{\\textendash} "
+      "lbl": "$text{$textendash}",
+      "val": "$text{$textendash} "
     },
     {
       "name": "Dotsi",
@@ -124,8 +124,8 @@
     },
     {
       "name": "TextEllipsis",
-      "lbl": "\\text{\\textellipsis}",
-      "val": "\\text{\\textellipsis} "
+      "lbl": "$text{$textellipsis}",
+      "val": "$text{$textellipsis} "
     },
     {
       "name": "Dotsm",
@@ -139,13 +139,13 @@
     },
     {
       "name": "TextDagger",
-      "lbl": "\\text{\\textdagger}",
-      "val": "\\text{\\textdagger} "
+      "lbl": "$text{$textdagger}",
+      "val": "$text{$textdagger} "
     },
     {
       "name": "TextAsciitilde",
-      "lbl": "\\text{\\textasciitilde}",
-      "val": "\\text{\\textasciitilde} "
+      "lbl": "$text{$textasciitilde}",
+      "val": "$text{$textasciitilde} "
     },
     {
       "name": "Sdot",
@@ -159,8 +159,8 @@
     },
     {
       "name": "TextAsciicircum",
-      "lbl": "\\text{\\textasciicircum}",
-      "val": "\\text{\\textasciicircum} "
+      "lbl": "$text{$textasciicircum}",
+      "val": "$text{$textasciicircum} "
     },
     {
       "name": "Mathellipsis",
@@ -174,8 +174,8 @@
     },
     {
       "name": "TextDaggerdbl",
-      "lbl": "\\text{\\textdaggerdbl}",
-      "val": "\\text{\\textdaggerdbl} "
+      "lbl": "$text{$textdaggerdbl}",
+      "val": "$text{$textdaggerdbl} "
     },
     {
       "name": "Lq",
@@ -239,8 +239,8 @@
     },
     {
       "name": "TextDollar",
-      "lbl": "\\text{\\textdollar}",
-      "val": "\\text{\\textdollar} "
+      "lbl": "$text{$textdollar}",
+      "val": "$text{$textdollar} "
     },
     {
       "name": "Colon",
@@ -305,8 +305,8 @@
     },
     {
       "name": "TextDegree",
-      "lbl": "\\text{\\textdegree}",
-      "val": "\\text{\\textdegree} "
+      "lbl": "$text{$textdegree}",
+      "val": "$text{$textdegree} "
     },
     {
       "name": "Mho",
@@ -340,8 +340,8 @@
     },
     {
       "name": "CircledA",
-      "lbl": "\\text{\\textcircled a}",
-      "val": "\\text{\\textcircled a} "
+      "lbl": "$text{$textcircled a}",
+      "val": "$text{$textcircled a} "
     },
     {
       "name": "Maltese",
@@ -365,13 +365,13 @@
     },
     {
       "name": "TextRegistered",
-      "lbl": "\\text{\\textregistered}",
-      "val": "\\text{\\textregistered} "
+      "lbl": "$text{$textregistered}",
+      "val": "$text{$textregistered} "
     },
     {
       "name": "TextSterling",
-      "lbl": "\\text{\\textsterling}",
-      "val": "\\text{\\textsterling} "
+      "lbl": "$text{$textsterling}",
+      "val": "$text{$textsterling} "
     },
     {
       "name": "Yen",
@@ -445,33 +445,33 @@
     },
     {
       "name": "TextQuotdblright",
-      "lbl": "\\text{\\textquotedblright}",
-      "val": "\\text{\\textquotedblright} "
+      "lbl": "$text{$textquotedblright}",
+      "val": "$text{$textquotedblright} "
     },
     {
       "name": "TextQuotdblleft",
-      "lbl": "\\text{\\textquotedblleft}",
-      "val": "\\text{\\textquotedblleft} "
+      "lbl": "$text{$textquotedblleft}",
+      "val": "$text{$textquotedblleft} "
     },
     {
       "name": "TextQuoteleft",
-      "lbl": "\\text{\\textquoteleft}",
-      "val": "\\text{\\textquoteleft} "
+      "lbl": "$text{$textquoteleft}",
+      "val": "$text{$textquoteleft} "
     },
     {
       "name": "TextQuoteright",
-      "lbl": "\\text{\\textquoteright}",
-      "val": "\\text{\\textquoteright} "
+      "lbl": "$text{$textquoteright}",
+      "val": "$text{$textquoteright} "
     },
     {
       "name": "TextLess",
-      "lbl": "\\text{\\textless}",
-      "val": "\\text{\\textless} "
+      "lbl": "$text{$textless}",
+      "val": "$text{$textless} "
     },
     {
       "name": "TextGreater",
-      "lbl": "\\text{\\textgreater}",
-      "val": "\\text{\\textgreater} "
+      "lbl": "$text{$textgreater}",
+      "val": "$text{$textgreater} "
     },
     {
       "name": "Minuso",

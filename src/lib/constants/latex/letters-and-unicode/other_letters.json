@@ -24,8 +24,8 @@
     },
     {
       "name": "OE",
-      "lbl": "\\text{\\OE}",
-      "val": "\\text{\\OE} "
+      "lbl": "$text{$OE}",
+      "val": "$text{$OE} "
     },
     {
       "name": "jmath",
@@ -49,8 +49,8 @@
     },
     {
       "name": "o",
-      "lbl": "\\text{\\o}",
-      "val": "\\text{\\o} "
+      "lbl": "$text{$o}",
+      "val": "$text{$o} "
     },
     {
       "name": "aleph",
@@ -74,8 +74,8 @@
     },
     {
       "name": "O",
-      "lbl": "\\text{\\O}",
-      "val": "\\text{\\O} "
+      "lbl": "$text{$O}",
+      "val": "$text{$O} "
     },
     {
       "name": "alef",
@@ -99,8 +99,8 @@
     },
     {
       "name": "ss",
-      "lbl": "\\text{\\ss}",
-      "val": "\\text{\\ss} "
+      "lbl": "$text{$ss}",
+      "val": "$text{$ss} "
     },
     {
       "name": "alefsym",
@@ -119,13 +119,13 @@
     },
     {
       "name": "aa",
-      "lbl": "\\text{\\aa}",
-      "val": "\\text{\\aa} "
+      "lbl": "$text{$aa}",
+      "val": "$text{$aa} "
     },
     {
       "name": "i",
-      "lbl": "\\text{\\i}",
-      "val": "\\text{\\i} "
+      "lbl": "$text{$i}",
+      "val": "$text{$i} "
     },
     {
       "name": "beth",
@@ -144,13 +144,13 @@
     },
     {
       "name": "AA",
-      "lbl": "\\text{\\AA}",
-      "val": "\\text{\\AA} "
+      "lbl": "$text{$AA}",
+      "val": "$text{$AA} "
     },
     {
       "name": "j",
-      "lbl": "\\text{\\j}",
-      "val": "\\text{\\j} "
+      "lbl": "$text{$j}",
+      "val": "$text{$j} "
     },
     {
       "name": "gimel",
@@ -169,8 +169,8 @@
     },
     {
       "name": "ae",
-      "lbl": "\\text{\\ae}",
-      "val": "\\text{\\ae} "
+      "lbl": "$text{$ae}",
+      "val": "$text{$ae} "
     },
     {
       "name": "daleth",
@@ -189,8 +189,8 @@
     },
     {
       "name": "AE",
-      "lbl": "\\text{\\AE}",
-      "val": "\\text{\\AE} "
+      "lbl": "$text{$AE}",
+      "val": "$text{$AE} "
     },
     {
       "name": "eth",
@@ -209,8 +209,8 @@
     },
     {
       "name": "oe",
-      "lbl": "\\text{\\oe}",
-      "val": "\\text{\\oe} "
+      "lbl": "$text{$oe}",
+      "val": "$text{$oe} "
     }
   ]
 }

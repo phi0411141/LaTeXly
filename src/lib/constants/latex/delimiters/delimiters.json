@@ -4,50 +4,50 @@
   "symbols": [
     {
       "name": "Parentheses",
-      "lbl": "\\lparen \\rparen",
-      "val": "\\lparen  \\rparen",
+      "lbl": "$lparen $rparen",
+      "val": "$lparen  $rparen",
       "caretPos": 8
     },
     {
       "name": "Ceiling",
-      "lbl": "\\lceil \\rceil",
-      "val": "\\lceil  \\rceil",
+      "lbl": "$lceil $rceil",
+      "val": "$lceil  $rceil",
       "caretPos": 7
     },
     {
       "name": "Floor",
-      "lbl": "\\lfloor \\rfloor",
-      "val": "\\lfloor  \\rfloor",
+      "lbl": "$lfloor $rfloor",
+      "val": "$lfloor  $rfloor",
       "caretPos": 8
     },
     {
       "name": "Square Brackets",
-      "lbl": "\\lbrack \\rbrack",
-      "val": "\\lbrack  \\rbrack",
+      "lbl": "$lbrack $rbrack",
+      "val": "$lbrack  $rbrack",
       "caretPos": 8
     },
     {
       "name": "Curly Braces",
-      "lbl": "\\lbrace \\rbrace",
-      "val": "\\lbrace  \\rbrace",
+      "lbl": "$lbrace $rbrace",
+      "val": "$lbrace  $rbrace",
       "caretPos": 8
     },
     {
       "name": "Angle Brackets",
-      "lbl": "\\langle \\rangle",
-      "val": "\\langle  \\rangle",
+      "lbl": "$langle $rangle",
+      "val": "$langle  $rangle",
       "caretPos": 8
     },
     {
       "name": "Double Angle Brackets",
-      "lbl": "\\lgroup \\rgroup",
-      "val": "\\lgroup  \\rgroup",
+      "lbl": "$lgroup $rgroup",
+      "val": "$lgroup  $rgroup",
       "caretPos": 8
     },
     {
       "name": "Moustache Brackets",
-      "lbl": "\\lmoustache \\rmoustache",
-      "val": "\\lmoustache  \\rmoustache",
+      "lbl": "$lmoustache $rmoustache",
+      "val": "$lmoustache  $rmoustache",
       "caretPos": 12
     },
     {
@@ -62,14 +62,14 @@
     },
     {
       "name": "Left Vertical Line",
-      "lbl": "\\lvert \\rvert",
-      "val": "\\lvert  \\rvert",
+      "lbl": "$lvert $rvert",
+      "val": "$lvert  $rvert",
       "caretPos": 7
     },
     {
       "name": "Left Double Vertical Line",
-      "lbl": "\\lVert \\rVert",
-      "val": "\\lVert  \\rVert",
+      "lbl": "$lVert $rVert",
+      "val": "$lVert  $rVert",
       "caretPos": 7
     },
     {
@@ -109,38 +109,38 @@
     },
     {
       "name": "Left Angle Bracket",
-      "lbl": "\\lang \\rang",
-      "val": "\\lang  \\rang",
+      "lbl": "$lang $rang",
+      "val": "$lang  $rang",
       "caretPos": 6
     },
     {
       "name": "Less Than, Greater Than",
-      "lbl": "\\lt \\gt",
-      "val": "\\lt  \\gt",
+      "lbl": "$lt $gt",
+      "val": "$lt  $gt",
       "caretPos": 4
     },
     {
       "name": "Double Brackets",
-      "lbl": "\\llbracket \\rrbracket",
-      "val": "\\llbracket  \\rrbracket",
+      "lbl": "$llbracket $rrbracket",
+      "val": "$llbracket  $rrbracket",
       "caretPos": 11
     },
     {
       "name": "Brace Brackets",
-      "lbl": "\\lBrace \\rBrace",
-      "val": "\\lBrace  \\rBrace",
+      "lbl": "$lBrace $rBrace",
+      "val": "$lBrace  $rBrace",
       "caretPos": 8
     },
     {
       "name": "Upper Left Corner",
-      "lbl": "\\ulcorner \\urcorner",
-      "val": "\\ulcorner  \\urcorner",
+      "lbl": "$ulcorner $urcorner",
+      "val": "$ulcorner  $urcorner",
       "caretPos": 10
     },
     {
       "name": "Lower Left Corner",
-      "lbl": "\\llcorner \\lrcorner",
-      "val": "\\llcorner  \\lrcorner",
+      "lbl": "$llcorner $lrcorner",
+      "val": "$llcorner  $lrcorner",
       "caretPos": 10
     }
   ]

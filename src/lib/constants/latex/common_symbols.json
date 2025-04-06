@@ -5,7 +5,7 @@
     {
       "name": "Superscript (Exponent)",
       "lbl": "x^n",
-      "val": "^{}",
+      "val": "$^{}$",
       "caretPos": 2
     },
     {
@@ -64,8 +64,8 @@
     },
     {
       "name": "Partial Derivative",
-      "lbl": "\\frac{\\partial}{\\partial x}",
-      "val": "\\frac{\\partial }{\\partial x}",
+      "lbl": "$frac{$partial}{\\partial x}",
+      "val": "$frac{$partial }{\\partial x}",
       "caretPos": 15
     },
     {
@@ -115,8 +115,8 @@
     },
     {
       "name": "Limit",
-      "lbl": "\\lim_{x \\to 0}",
-      "val": "\\lim_{x \\to 0} ",
+      "lbl": "$lim_{x $to 0}",
+      "val": "$lim_{x $to 0} ",
       "isBlkMath": true
     },
     {
@@ -176,8 +176,8 @@
     },
     {
       "name": "Set Braces",
-      "lbl": "\\{\\}",
-      "val": "\\{  \\}",
+      "lbl": "${$}",
+      "val": "${  $}",
       "caretPos": 3
     },
     {

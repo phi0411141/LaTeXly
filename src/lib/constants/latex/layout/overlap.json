@@ -4,26 +4,26 @@
   "symbols": [
     {
       "name": "Mathllap",
-      "lbl": "{=}\\mathllap{/\\,}",
+      "lbl": "{=}$mathllap{/$,}",
       "val": "{}\\mathllap{}",
       "caretPos": 1
     },
     {
       "name": "Smash",
-      "lbl": "\\left(x^{\\smash{2}}\\right)",
+      "lbl": "$left(x^{$smash{2}}\\right)",
       "val": "\\smash{}",
       "caretPos": 7
     },
     {
       "name": "Mathrlap",
-      "lbl": "\\mathrlap{\\,/}{=}",
+      "lbl": "$mathrlap{$,/}{=}",
       "val": "\\mathrlap{}{}",
       "caretPos": 10
     },
     {
       "name": "SmashRoot",
-      "lbl": "\\sqrt{\\smash[b]{y}}",
-      "val": "\\sqrt{\\smash[b]{}}",
+      "lbl": "$sqrt{$smash[b]{y}}",
+      "val": "$sqrt{$smash[b]{}}",
       "caretPos": 17
     }
   ]

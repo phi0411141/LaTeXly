@@ -9,7 +9,7 @@
 import { forwardRef, useImperativeHandle, useRef, useState } from 'react';
 
 import html2canvas from 'html2canvas';
-import { BlockMath } from 'react-katex';
+import { MathJax } from 'better-react-mathjax';
 
 export interface latexPanelRef {
   setEquation: (value: string) => void;
@@ -79,18 +79,18 @@ const latexPanel = forwardRef<latexPanelRef>((_, ref) => {
         ref={equationRef}
         className="flex items-center px-8 py-4"
       >
-        <BlockMath
-          renderError={(error) => (
+        <MathJax
+          onError={(error) => (
             <span
               className="m-2 animate-fade-in rounded-lg bg-[hsl(var(--heroui-danger)/0.2)] px-4 py-2
                 text-sm"
             >
-              {error.message}
+              {(error as any)?.message}
             </span>
           )}
         >
           {equation}
-        </BlockMath>
+        </MathJax>
       </div>
     </div>
   );

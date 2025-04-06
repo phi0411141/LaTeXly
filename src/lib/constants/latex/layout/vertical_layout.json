@@ -52,13 +52,13 @@
     },
     {
       "name": "ComplexAtop",
-      "lbl": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)",
-      "val": "a+\\left(\\vcenter{\\hbox{$\\frac{\\frac{a}{b}}{c}$}}\\right)"
+      "lbl": "a+$left($vcenter{$hbox{$$frac{$frac{a}{b}}{c}$}}$right)",
+      "val": "a+$left($vcenter{$hbox{$$frac{$frac{a}{b}}{c}$}}$right)"
     },
     {
       "name": "SumSubstack",
-      "lbl": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
-      "val": "\\sum_{\\substack{0<i<m\\\\0<j<n}}",
+      "lbl": "$sum_{$substack{0<i<m$$0<j<n}}",
+      "val": "$sum_{$substack{0<i<m$$0<j<n}}",
       "isBlkMath": true
     }
   ]
