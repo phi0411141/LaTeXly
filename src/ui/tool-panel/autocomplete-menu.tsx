@@ -7,8 +7,8 @@ import {
   getKeyValue,
   Tooltip,
 } from '@heroui/react';
-import { ChevronsUpDown } from 'lucide-react';
 import { MathJax } from 'better-react-mathjax';
+import { ChevronsUpDown } from 'lucide-react';
 
 import { SymbolsGroup } from '@/types/symbols';
 import { cn } from '@/utils/cn';
@@ -135,9 +135,7 @@ export function AutocompleteMenu({
                     }}
                   >
                     {isBlkMath && symbol.isBlkMath ? (
-                      <MathJax>
-                        {symbol.lbl}
-                      </MathJax>
+                      <MathJax>{symbol.lbl}</MathJax>
                     ) : (
                       <MathJax inline>{symbol.lbl}</MathJax>
                     )}

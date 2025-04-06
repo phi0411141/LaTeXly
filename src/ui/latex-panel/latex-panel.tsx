@@ -8,8 +8,8 @@
 
 import { forwardRef, useImperativeHandle, useRef, useState } from 'react';
 
-import html2canvas from 'html2canvas';
 import { MathJax } from 'better-react-mathjax';
+import html2canvas from 'html2canvas';
 
 export interface latexPanelRef {
   setEquation: (value: string) => void;
@@ -80,6 +80,7 @@ const latexPanel = forwardRef<latexPanelRef>((_, ref) => {
         className="flex items-center px-8 py-4"
       >
         <MathJax
+          dynamic
           onError={(error) => (
             <span
               className="m-2 animate-fade-in rounded-lg bg-[hsl(var(--heroui-danger)/0.2)] px-4 py-2
